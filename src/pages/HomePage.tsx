@@ -1,16 +1,16 @@
 import React from 'react';
-import { Container, Typography } from '@mui/material';
-
+import { Container, Typography, Box } from '@mui/material';
+import HeroSection from '../components/HeroSection';
+import ServicesSection from '../components/ServiceSection';
 const HomePage = () => {
   return (
-    <Container>
-      <Typography variant="h3" sx={{ mt: 4 }}>
-        Welcome to OptiBD
-      </Typography>
-      <Typography variant="body1" sx={{ mt: 2 }}>
-        We build custom software solutions for logistics and web platforms.
-      </Typography>
-    </Container>
+    <>
+    <HeroSection />
+      <ServicesSection />
+      
+
+      
+    </>
   );
 };
 
