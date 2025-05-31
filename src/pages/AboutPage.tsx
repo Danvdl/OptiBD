@@ -11,9 +11,7 @@ const AboutPage = () => (
     <Typography variant="h3" fontWeight="bold" gutterBottom>
       About OptiBD
     </Typography>
-    <Typography variant="h6" sx={{ mb: 4 }}>
-      The BD in OptiBD stands for Billi and Daniel.
-    </Typography>
+    
     <Box sx={{ maxWidth: 800 }}>
       <Typography variant="body1" sx={{ mb: 2 }}>
         We started OptiBD with a single vision: to help businesses thrive by bringing efficiency, automation, and modern tech to logistics and operations. As developers and friends, we combine technical excellence with domain expertise, delivering custom solutions that scale as you grow.

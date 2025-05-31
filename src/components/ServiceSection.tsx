@@ -20,14 +20,14 @@ const ServicesSection = () => {
             <ServiceCard
               title="Logistics Software"
               description="Custom inventory, routing, optimization tools tailored for operational efficiency."
-              icon={<StorageRoundedIcon color="primary" />}
+              icon={StorageRoundedIcon}
             />
           </Grid>
           <Grid item xs={12} md={4}>
             <ServiceCard
               title="Web & API Development"
               description="Robust, secure backend services and clean modern UIs using the latest stacks."
-              icon={<HttpRoundedIcon color="primary" />}
+              icon={StorageRoundedIcon}
               delay={0.1}
             />
           </Grid>
@@ -35,7 +35,7 @@ const ServicesSection = () => {
             <ServiceCard
               title="Custom Platforms"
               description="From idea to MVP — we build scalable tools that grow with your business."
-              icon={<DashboardCustomizeRoundedIcon color="primary" />}
+              icon={StorageRoundedIcon}
               delay={0.2}
             />
           </Grid>

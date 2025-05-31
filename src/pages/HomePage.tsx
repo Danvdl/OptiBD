@@ -7,6 +7,9 @@ import FadeInSection from '../components/FadeInSection';
 const HomePage = () => {
   return (
     <>
+      <FadeInSection>
+        <HeroSection />
+      </FadeInSection>
     <FadeInSection>
   <ServicesSection />
 </FadeInSection>
