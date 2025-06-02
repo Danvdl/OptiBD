@@ -35,8 +35,8 @@ const Footer = () => (
             Contact
           </Typography>
           <Typography variant="body2">
-            hello@optibd.dev<br />
-            Cape Town, South Africa
+           optibd.dev@gmail.com <br />
+            Stellenbosch, South Africa
           </Typography>
         </Grid>
       </Grid>
