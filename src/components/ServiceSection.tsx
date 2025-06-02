@@ -1,9 +1,8 @@
-import React from 'react';
+
 import { Box, Container, Grid, Typography } from '@mui/material';
 import ServiceCard from './ServiceCard.tsx';
 import StorageRoundedIcon from '@mui/icons-material/StorageRounded';
-import HttpRoundedIcon from '@mui/icons-material/HttpRounded';
-import DashboardCustomizeRoundedIcon from '@mui/icons-material/DashboardCustomizeRounded';
+
 
 const ServicesSection = () => {
   return (
@@ -16,14 +15,14 @@ const ServicesSection = () => {
           OptiBD specializes in building scalable, elegant software solutions tailored to modern logistics and web infrastructure.
         </Typography>
         <Grid container spacing={4}>
-          <Grid item xs={12} md={4}>
+          <Grid >
             <ServiceCard
               title="Logistics Software"
               description="Custom inventory, routing, optimization tools tailored for operational efficiency."
               icon={StorageRoundedIcon}
             />
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid >
             <ServiceCard
               title="Web & API Development"
               description="Robust, secure backend services and clean modern UIs using the latest stacks."
@@ -31,7 +30,7 @@ const ServicesSection = () => {
               delay={0.1}
             />
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid >
             <ServiceCard
               title="Custom Platforms"
               description="From idea to MVP — we build scalable tools that grow with your business."

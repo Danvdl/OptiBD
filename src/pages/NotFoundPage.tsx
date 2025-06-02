@@ -1,6 +1,6 @@
-import React from 'react';
+
 import { Helmet } from 'react-helmet-async';
-import { Container, Typography, Box, Button } from '@mui/material';
+import { Container, Typography, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 const NotFoundPage = () => (

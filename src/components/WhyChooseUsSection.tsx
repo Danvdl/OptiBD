@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Box, Container, Typography, Grid } from '@mui/material';
 
 const points = [
@@ -19,7 +19,7 @@ const WhyChooseUsSection = () => (
       </Typography>
       <Grid container spacing={3} justifyContent="center">
         {points.map((point, index) => (
-          <Grid item xs={12} md={6} key={index}>
+          <Grid   key={index}>
             <Typography
               variant="body1"
               sx={{
