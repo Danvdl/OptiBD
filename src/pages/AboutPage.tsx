@@ -1,5 +1,6 @@
-import React from 'react';
-import { Container, Typography, Box, Grid, Paper } from '@mui/material';
+
+import { Container, Typography, Box, Paper } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 
@@ -75,7 +76,7 @@ const AboutPage = () => (
     {/* Founders */}
     <Grid container spacing={4}>
       {founders.map((founder, idx) => (
-        <Grid item xs={12} md={6} key={founder.name}>
+        <Grid >
           <motion.div
             initial={{ opacity: 0, y: 32 }}
             whileInView={{ opacity: 1, y: 0 }}

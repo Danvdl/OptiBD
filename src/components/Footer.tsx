@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Box, Container, Typography, Link as MuiLink, Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
 
@@ -6,7 +6,7 @@ const Footer = () => (
   <Box sx={{ bgcolor: '#0A192F', color: 'white', py: 6, mt: 10 }}>
     <Container>
       <Grid container spacing={4}>
-        <Grid item xs={12} md={4}>
+        <Grid >
           <Typography variant="h6" fontWeight="bold" gutterBottom>
             OptiBD
           </Typography>
@@ -14,7 +14,7 @@ const Footer = () => (
             Optimized solutions for modern logistics and web infrastructure.
           </Typography>
         </Grid>
-        <Grid item xs={6} md={4}>
+        <Grid >
           <Typography variant="h6" fontWeight="bold" gutterBottom>
             Quick Links
           </Typography>
@@ -30,7 +30,7 @@ const Footer = () => (
             </MuiLink>
           </Box>
         </Grid>
-        <Grid item xs={6} md={4}>
+        <Grid >
           <Typography variant="h6" fontWeight="bold" gutterBottom>
             Contact
           </Typography>
