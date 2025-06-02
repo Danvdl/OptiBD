@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Container, Typography, Grid } from '@mui/material';
 import ServiceCard from '../components/ServiceCard';
 import { services } from '../data/servicesdata';
@@ -13,7 +13,7 @@ const ServicesPage = () => (
     </Typography>
     <Grid container spacing={4}>
   {services.map((service, idx) => (
-    <Grid item xs={12} md={6} key={service.title}>
+    <Grid key={service.title}>
       <ServiceCard {...service} delay={0.1 * idx} />
     </Grid>
   ))}
