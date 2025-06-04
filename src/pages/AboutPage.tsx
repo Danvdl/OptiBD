@@ -22,7 +22,6 @@ const founders = [
 const AboutPage = () => (
   <Container maxWidth="lg" sx={{ py: 12 }}>
     <Helmet>
-      <title>About Us | OptiBD</title>
       <meta name="description" content="Meet the founders of OptiBD – Billi and Daniel, students at Stellenbosch University and passionate builders of modern software." />
     </Helmet>
 
