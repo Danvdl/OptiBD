@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <meta name="description" content="Custom software solutions for logistics, web, and operations. Scalable. Modern. Built by BD Consulting." />
     <meta property="og:title" content="OptiBD" />
     <meta property="og:description" content="Custom software solutions for logistics, web, and operations." />
-    <meta property="og:image" content="https://yourdomain.com/opti-bd-og.png" />
+    <meta property="og:image" content="https://i.imgur.com/SkyMfeu.png" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://yourdomain.com" />
   
