@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <meta property="og:description" content="Custom software solutions for logistics, web, and operations." />
     <meta property="og:image" content="https://i.imgur.com/SkyMfeu.png" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:url" content="https://www.optibd.systems/" />
   
     <ThemeProvider theme={theme}>
       <CssBaseline />
